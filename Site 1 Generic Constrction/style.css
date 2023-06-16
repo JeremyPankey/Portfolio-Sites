@@ -3,7 +3,7 @@
     margin: 0;
     text-decoration: none;
     list-style: none;
-    box-sizing: border-box;
+    box-sizing: border-box;  
 }
 
 
@@ -14,6 +14,10 @@ nav {
     height: 80px;
     width: 100%;
     position: sticky;
+}
+
+body {
+    background-color: beige;
 }
 
 label.logo{
@@ -46,7 +50,7 @@ nav ul li a {
 .pappersimage {
     width: 100%;
     height: 400px;
-    background-image: url(file:///C:/Users/Jeremy/Desktop/Blueprints.webp);
+    background-image: url(file:///C:/Users/Jeremy/Desktop/Portfolio%20Sites/Site%201%20Generic%20Constrction/Img/images.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -58,14 +62,43 @@ nav ul li a {
     padding-left: 17%;
     padding-right: 17%;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
-.advantages h1{
+.info h2 {
+    margin-top: 35px;
+}
+
+hr {
+    margin-bottom: 50px;
+    color: black;
+}
+
+.why {
     text-align: center;
+    margin-bottom: 60px;
+}
+
+.advantages {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 50px;
 }
 
 .advantages h2 {
-    display: flex;
-    justify-content: space-evenly;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.advantages div {
+    width: 25%;
+    text-align: center;
+    border: 1px solid black;
+    height: 300px;
+    background-color: white;
+}
+
+.advantages h3 {
+    margin-top: 50px;
 }
